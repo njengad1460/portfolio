@@ -11,6 +11,14 @@ body {
     height: 240px; 
     border-radius: 50%; 
     object-fit: cover;
+    margin-left: 10%;
+}
+.testimonial-box img{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-left: 10%;
 }
 
 
@@ -43,6 +51,8 @@ header nav ul li a:hover {
 
 .container {
     padding: 20px;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 footer {
@@ -76,9 +86,13 @@ footer a:hover {
     background-color: #444;
     padding: 20px;
     margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    box-shadow: 0 8px 10px rgba(187, 57, 57, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+.testimonial-box p {
+    margin-left: 10%;
 }
 
 .testimonial-box:hover {
